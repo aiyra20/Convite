@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Pedro Vitor</title>
+    <!-- Link para o CSS dentro da pasta src -->
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <div class="center">
+        <div class="convite">
+            <h2>Convite Pedro Vitor 🎉</h2>
+            <p>Você está convidado para uma festa especial!</p>
+            <button id="abrir" class="btn primary">Ver detalhes</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="conteudo-modal">
+            <button class="close" id="fechar">&times;</button>
+            <h2>Convite Pedro Vitor 🎊</h2>
+            <p><strong>Data:</strong> 18 de Setembro de 2025</p>
+            <p><strong>Hora:</strong> 08:00</p>
+            <p><strong>Local:</strong>Centro Educacional Herança Do Senhor</p>
+            <div class="acoes">
+                <button id="confirmar" class="btn primary">Confirmar Presença</button>
+                <span id="msg" class="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Biblioteca de confete -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <!-- Link para o JS dentro da pasta src -->
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
